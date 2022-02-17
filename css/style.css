@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&family=Outfit:wght@400;700&family=Poppins:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  --white: hsl(0, 0%, 100%);
+  --light-gray: hsl(212, 45%, 89%);
+  --grayish-blue: hsl(220, 15%, 55%);
+  --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+  background-color: var(--light-gray);
+  font-family: "Outfit", sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: calc(100vh-1px);
+  margin: 1.25rem;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  background-color: var(--white);
+  padding: 1.2rem;
+  text-align: center;
+  border-radius: 1.25rem;
+  -webkit-box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+          box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+  margin: auto 0.5rem auto 0.5rem;
+}
+
+.container img {
+  border-radius: 1.25rem;
+}
+
+.container h1 {
+  color: var(--dark-blue);
+  margin: 1.2rem 1rem 1.2rem 1rem;
+}
+
+.container p {
+  color: var(--grayish-blue);
+  margin: 0 1rem 2rem 1rem;
+}
+
+.attribution {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (min-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
